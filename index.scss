@@ -1,0 +1,257 @@
+body {
+  background: #646464;
+}
+
+.topnav {
+    background-color: #646464;
+    overflow: hidden;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #FFFF99;
+    text-align: center;
+    padding: 22px 92px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.button{
+  background-color: #4CAF50;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: white;
+}
+
+.homepicture {
+  width: auto;
+  height:auto;
+  position:relative;
+}
+/*under this is the position for the picture header text in everything but scrub*/
+.center {
+  position: absolute;
+  top: 50%;
+  right: 37%;
+  font-size: 50px;
+}
+
+/*under this is the position for the picture header text in scrub only*/
+.ctwo{
+  position: absolute;
+  top: 85%;
+  right: 37%;
+  font-size: 50px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+}
+
+.bathbombpicture {
+  width: 100%;
+  height:100%;
+  position:relative;
+}
+
+.soappicture{
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+.essentialoilpicture {
+  width:100%;
+  height: 100%;
+  position: relative;
+}
+
+.srubpicture {
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+.toptext{
+   font-family: 'Georgia', serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 35px;
+}
+
+.boldtext{
+  font-weight: 700;
+  color: #FFFF99;
+}
+
+.normaltext{
+  color: white;
+}
+
+/*Bath bomb buttons*/
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  display: inline-block;
+ position: relative;
+  width:33%;
+}
+
+/* Make the image responsive */
+.picture {
+  height: 800px;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  padding: 100px 145px;
+  width: 100%;
+  height: 100% ;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: transparent;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 22.33%;
+  padding: 16px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+.yellowtext{
+  color:#FFFF99;
+}
+
+.eucalyptuspicture{
+  position: relative;
+  top: -70%;
+  right: -1%;
+  font-size: 30px;
+  height: 500px;
+  width: 500px;
+  color: white;
+}
+
+.eucalyptusdescription{
+  color: white;
+  position: relative;
+  top: -50%;
+  right: -135%;
+  text-align: center;
+}
+
+.almondpicture{
+  position: relative;
+  top: -20%;
+  right: -73%;
+  font-size: 30px;
+  height: 500px;
+  width: 500px;
+  color: white;
+}
+
+.almonddescription{
+  color: white;
+  position: relative;
+  top: -50%;
+  right: 133%;
+  text-align: center;
+}
+
+.column .container {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lavenderpicture{
+  position: relative;
+  top: -17%;
+  right: -1%;
+  font-size: 30px;
+  height: 500px;
+  width: 500px;
+  color: white;
+  
+}
+
+.lavenderdescription{
+  color: white;
+  position: relative;
+  top: -50%;
+  right: -135%;
+  text-align: center;
+}
+
+.citruspicture{
+  position: relative;
+  top: -100%;
+  right: -73%;
+  font-size: 30px;
+  height: 500px;
+  width: 500px;
+  color: white;
+}
+
+.citrusdescription{
+  color: white;
+  position: relative;
+  top: -240px;
+  right: 133%;
+  text-align: center;
+}
+
+
+
+.insta{
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  height: 130px;
+}
